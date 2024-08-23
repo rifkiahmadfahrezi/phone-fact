@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+   font-family: 'Poppins', sans-serif;
+}
+
+.card{
+   @apply bg-white dark:bg-base-200;
+}
